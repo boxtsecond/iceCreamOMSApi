@@ -1,0 +1,28 @@
+{
+  "fields":{
+    "table": "fans",
+    "userKey": "phoneNumber",
+    "token": "tokens"
+  },
+  "phonecode":{
+    "table": "phonecode",
+    "ttl": 1800
+  },
+  "disfields":[
+  ],
+  "isdebug":true,
+  "post_data": {
+    "un": "N2792744",
+    "pw": "KsqAXCW2rueefa"
+  },
+  "option": {
+    "hostname": "sms.253.com",
+    "port": 80,
+    "path": "/msg/send",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Content-Length": 1024
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Goods",
+  "description": "商品，活动，品牌相关 [未完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

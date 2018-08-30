@@ -1,0 +1,23 @@
+{
+  "mysql":{
+    "client": "mysql",
+    "connection": {
+      "host":"172.19.247.53",
+      "port":3306,
+      "user":"xg",
+      "password":"vqECmS07SDPgWErs",
+      "database":"xgq"
+    },
+    "pool": {
+      "min": 8,
+      "max": 20
+    }
+  },
+  "redis":{ "port": 7379,
+    "host": "172.19.247.44",
+    "family": 4,
+    "password": "",
+    "db": 0
+  }
+
+}

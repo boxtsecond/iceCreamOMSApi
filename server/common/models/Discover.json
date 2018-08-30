@@ -1,0 +1,14 @@
+{
+  "name": "Discover",
+  "description": "发现相关 [未完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

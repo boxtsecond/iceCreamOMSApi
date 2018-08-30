@@ -1,0 +1,36 @@
+config:
+  # target: "http://api.xuegaoqun.com/app/api"
+  http:
+    timeout: 10
+  target: "http://10.40.253.187:3003/api"
+  # target: "http://127.0.0.1:3003/api"
+  phases:
+    - duration: 10
+      arrivalRate: 400
+  processor: "./orderTest.js"
+scenarios:
+  - flow:
+    # - get:
+    #     url: "/"
+    #     headers:
+    #       token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjk5NzEsImV4cCI6MTUxMzEzMDMyMX0.Bk-Fi8zxw4wbPwZhLhL3xiRP9l2Zp2Ujk5ubcE1jgRg"
+    #     beforeRequest: "getOneOrder"
+    #     afterResponse: "logResBody"
+    # - post: 
+    #     url: "/Orders/list"
+    #     headers:
+    #       token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjk5NzEsImV4cCI6MTUxMzEzMDMyMX0.Bk-Fi8zxw4wbPwZhLhL3xiRP9l2Zp2Ujk5ubcE1jgRg"
+    #     beforeRequest: "getOrderList"
+    #     afterResponse: "logResBody"
+    # - post: 
+    #     url: "/Orders/create"
+    #     headers:
+    #       token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjk5NzEsImV4cCI6MTUxMzEzMDMyMX0.Bk-Fi8zxw4wbPwZhLhL3xiRP9l2Zp2Ujk5ubcE1jgRg"
+    #     beforeRequest: "createOrder"
+    #     afterResponse: "logResBody"
+    - post: 
+        url: "/Orders/testCreateUnified"
+        headers:
+          token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjk5NzEsImV4cCI6MTUxMzEzMDMyMX0.Bk-Fi8zxw4wbPwZhLhL3xiRP9l2Zp2Ujk5ubcE1jgRg"
+        beforeRequest: "testCreateUnified"
+        afterResponse: "logResBody"

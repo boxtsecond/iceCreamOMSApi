@@ -1,0 +1,14 @@
+{
+  "name": "Order",
+  "description": "订单相关 [未完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

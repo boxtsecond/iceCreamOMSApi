@@ -1,0 +1,6 @@
+{
+  "loopback-component-explorer":  {
+     "basePath": "/oms/api/",
+     "mountPath": "/explorer"
+  }
+}

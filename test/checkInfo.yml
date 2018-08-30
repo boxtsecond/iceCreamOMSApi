@@ -1,0 +1,15 @@
+config:
+  http:
+    timeout: 10
+  # target: "http://10.40.253.187:3003/api"
+  target: "https://oms.xuegaoqun.com/oms/api"
+  phases:
+    - duration: 20
+      arrivalRate: 5000
+  processor: "./checkInfoTest.js"
+scenarios:
+  - flow:
+    - post:
+        url: "/CheckInfos/checkIn/:sid"
+        beforeRequest: "beforePostCheckInfos"
+        afterResponse: "afterPostCheckInfos"

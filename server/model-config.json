@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "./common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "./common/mixins",
+      "./mixins"
+    ]
+  },
+  "Token": {
+    "dataSource": null,
+    "public": true
+  },
+  "RPC":{
+    "dataSource": null,
+    "public": true
+  },
+  "CheckInfo":{
+    "dataSource": null,
+    "public": true
+  },
+  "Payment":{
+    "dataSource": null,
+    "public": true
+  },
+  "Order":{
+    "dataSource": null,
+    "public": true
+  },
+  "Discover":{
+    "dataSource": null,
+    "public": true
+  },
+  "Goods":{
+    "dataSource": null,
+    "public": true
+  },
+  "Wallet":{
+    "dataSource": null,
+    "public": true
+  },
+  "Charge":{
+    "dataSource": null,
+    "public": true
+  },
+  "Digital":{
+    "dataSource": null,
+    "public": true
+  },
+  "Upload":{
+    "dataSource": null,
+    "public": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Payment",
+  "description": "支付APP端请无视 [未完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

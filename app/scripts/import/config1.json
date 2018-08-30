@@ -1,0 +1,23 @@
+{
+  "mysql":{
+    "client": "mysql",
+    "connection": {
+      "host": "10.40.200.13",
+      "user": "root",
+      "password": "web123",
+      "database": "icecream"
+    },
+    "pool": {
+      "min": 8,
+      "max": 20
+    }
+  },
+  "redis": {
+    "port":6379,
+    "host":"10.40.200.42",
+    "options":{},
+    "password":"",
+    "family": 4,
+    "db": 0
+  }
+}

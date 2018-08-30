@@ -1,0 +1,14 @@
+{
+  "name": "CheckInfo",
+  "description": "CheckInfo [未完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

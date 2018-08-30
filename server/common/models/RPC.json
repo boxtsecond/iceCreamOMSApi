@@ -1,0 +1,14 @@
+{
+  "name": "RPC",
+  "description": "内部通信（旧版本服务器调用） [已完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

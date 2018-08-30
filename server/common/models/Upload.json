@@ -1,0 +1,14 @@
+{
+  "name": "Upload",
+  "description": "上传文件 [已完成]",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
